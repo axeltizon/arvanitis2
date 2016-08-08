@@ -1,0 +1,208 @@
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+.contacticonlink{
+	position:absolute;
+	right:0;
+	}
+#cfw1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #454345;
+	background-color: #fff;
+	position: fixed;
+}
+#cfw2 {
+	overflow: hidden;
+	text-align: left;
+}
+div.cfw1 .contacticonlink {
+	border: 0 none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 28px;
+    z-index: 10000;
+}
+#cfw1 iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+.cfw-sec {
+/*padding:0 10px;*/
+}
+.cfw-sec form {
+	padding: 0 10px;
+}
+.banner-section {
+	background: #005b7f;
+	height: 60px;
+	text-align: center;
+}
+.banner-section img {
+	margin: 12px 0;
+}
+.cfw-sec input[type="text"] {
+	width: 100%;
+	height: 38px;
+	font-size: 14px;
+	border: 2px solid #005b7f;
+	border-radius: 0;
+	background-color: transparent;
+}
+.cfw-sec textarea {
+	height: 97px;
+	font-size: 14px;
+	border: 2px solid #005b7f;
+	background-color: transparent;
+}
+.cfw-submit {
+	text-align: center;
+	margin-top: 20px;
+}
+.cfw-submit input[type="submit"] {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 2px solid #005b7f;
+	border-radius: 0;
+	color: #005b7f;
+	font-size: 14px;
+	font-weight: normal;
+	height: 35px;
+	margin: 0;
+	padding: 10px 35px;
+	line-height: 10px;
+}
+.cfw-submit input[type="submit"]:hover {
+	background: #005b7f none repeat scroll 0 0;
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+.cfw-submit input[type="submit"]:active {
+	position: relative;
+	top: 1px;
+}
+.cfw-sec h2 {
+	color: #005b7f;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px 0;
+}
+.cfw-sec input, textarea {
+	margin-bottom: 20px;
+}
+.banner-section {
+	background: #005b7f;
+}
+.corner-arrow img.left {
+	left: 0;
+	position: absolute;
+	top: 47px;
+}
+.corner-arrow img.right {
+	right: 0;
+	position: absolute;
+	top: 47px;
+}
+*::-moz-placeholder {
+font-size:14px;
+color:#005b7f;
+opacity:0.6;
+font-family:SourceSansPro-Light !important;
+}
+a:hover {
+	color: #005b7f;
+	position: relative;
+}
+a[title]:hover:after {
+	content: attr(title);
+	color: #005b7f;
+	padding: 3px;
+	position: absolute;
+	left: calc(50% - 25px);
+	top: -20px;
+	white-space: nowrap;
+	z-index: 20;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px #005b7f;
+	background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eeeeee));
+	background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+}
+.artboard > h2.top-style {
+	background: #005b7f;
+	border-radius: 5px;
+	color: #fff;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px !important;
+	padding: 15px 0!important;
+	text-align: center;
+	font-weight: normal;
+}
+.artboard .submit {
+	text-align: center;
+	width: 520px;
+}
+.artboard .submit .button-default {
+	background: #005b7f none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.artboard th {
+	color: #005b7f;
+	font-size: 16px;
+}
+.artboard h2 {
+	color: #005b7f;
+	font-size: 26px;
+}
+
+.cfw_shotcode {
+    border: 1px solid #005b7f;
+    border-radius: 3px;
+    color: #005b7f;
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.artboard .form-table input {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #005b7f;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.artboard .form-table textarea {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #005b7f;
+	height: 60px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+	margin:0;
+}
+.artboard select {
+	border: 1px solid #005b7f;
+	border-radius: 3px;
+}
+.bordr { border: 2px solid #005b7f; padding:5px; }

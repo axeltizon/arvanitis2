@@ -1,0 +1,28 @@
+#cup-container {
+   width: 100%;
+}
+
+#cup-left {
+   width: 48%;
+   float: left;
+}
+
+#cup-right {
+   width: 48%;
+   float: right;
+}
+
+#cup-contact-info p {
+    margin-bottom: 5px;
+}
+
+#cup-contact-info span {
+    top: 5px;
+    position: relative;
+}
+
+#cup-contact-info hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}

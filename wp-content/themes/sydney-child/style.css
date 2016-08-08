@@ -1,0 +1,71 @@
+/*
+Theme Name: Sydney Child
+Template: sydney
+Version: 1.31
+Author:	aThemes
+Theme URI: http://athemes.com/theme/sydney
+Author URI: http://athemes.com
+*/
+
+/*Add your own styles here:*/
+
+@import url('../sydney/style.css');
+
+/************************ FONTS ***********************/
+@font-face {
+    font-family: 'Averta-Regular';
+    src: url('fonts/AvertaDemo-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta-Regular';
+    src: url('fonts/AvertaDemo-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Averta-Regular', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Averta-Regular', sans-serif !important;
+}
+
+/************************ HEADER PAGE ***********************/
+
+.page-wrap {
+    padding-top: 20px !important;
+}
+
+.text-slider .maintitle {
+    font-family: 'Averta-Regular', sans-serif !important;
+    font-size: 60px !important;
+    font-weight: 800  !important;    
+}
+
+.text-slider .subtitle {
+    color: #C58917 !important;
+    font-family: 'Averta-Regular', sans-serif;    
+    font-size: 60px !important;
+    font-weight: 800 !important;
+}
+
+.hentry .title-post {
+    display: none !important;
+}
+
+/************************ ABOUT US PAGE ***********************/
+.about-us-header{
+    font-family: 'Averta-Regular', sans-serif !important;
+    color: #050550 !important;    
+}
+
+.about-us-role{
+   color: #C58917 !important;
+   font-size: 22px !important;
+   font-weight: 600 !important;
+   font-family: 'Averta-Regular', sans-serif !important;
+}
