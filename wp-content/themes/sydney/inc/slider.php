@@ -45,9 +45,7 @@ function sydney_slider_template() {
     <div id="slideshow" class="header-slider" data-speed="<?php echo esc_attr($speed); ?>">
         <div class="slides-container">
             <?php                 
-                if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/1.png') 
-                        &&  is_front_page()
-                    ){
+                if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/1.png')){
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/1.jpg')) . ');">';
                     ?>
                         <div class="slide-inner">
@@ -61,8 +59,7 @@ function sydney_slider_template() {
                     echo '</div>';
                 
                 }
-                if ( get_theme_mod('slider_image_2', get_template_directory_uri() . '/images/2.jpg') 
-                        &&  is_front_page()) {
+                if ( get_theme_mod('slider_image_2', get_template_directory_uri() . '/images/2.jpg') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_2', get_template_directory_uri() . '/images/2.jpg')) . ');">';
                     ?>
                         <div class="slide-inner">
@@ -75,8 +72,7 @@ function sydney_slider_template() {
                     <?php
                     echo '</div>';
                 }           
-                if ( get_theme_mod('slider_image_3') 
-                        &&  is_front_page()) {
+                if ( get_theme_mod('slider_image_3') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_3')) . ');">';
                     ?>
                         <div class="slide-inner">                    
@@ -89,9 +85,7 @@ function sydney_slider_template() {
                     <?php                    
                     echo '</div>';
                 }
-                if ( get_theme_mod('slider_image_4') 
-                        &&  (is_front_page() || is_page(6) || is_page(10) || is_page(8))
-                    ) {
+                if ( get_theme_mod('slider_image_4') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_4')) . ');">';
                     ?>
                         <div class="slide-inner">                                        
@@ -104,8 +98,7 @@ function sydney_slider_template() {
                     <?php                    
                     echo '</div>';
                 }
-                if ( get_theme_mod('slider_image_5') 
-                        &&  is_front_page()) {
+                if ( get_theme_mod('slider_image_5') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_5')) . ');">';
                     ?>
                         <div class="slide-inner">                                                            
