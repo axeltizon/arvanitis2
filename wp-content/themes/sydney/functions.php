@@ -173,6 +173,8 @@ function sydney_scripts() {
 
 	wp_enqueue_style( 'sydney-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/css/main.css' );
+
 	wp_enqueue_style( 'sydney-font-awesome', get_template_directory_uri() . '/fonts/font-awesome.min.css' );
 
 	wp_enqueue_style( 'sydney-ie9', get_template_directory_uri() . '/css/ie9.css', array( 'sydney-style' ) );

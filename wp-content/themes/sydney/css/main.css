@@ -1,0 +1,30 @@
+/* Variables */
+.img-responsive {
+  width: 100%;
+}
+footer {
+  background-color: #f3f3f3 !important;
+}
+footer .footer-widgets {
+  background: transparent !important;
+  padding: 0;
+}
+footer .footer-widgets h3.widget-title {
+  color: #000;
+  font-size: 30px;
+}
+footer .footer-widgets ul {
+  color: #000;
+}
+footer .footer-widgets ul li {
+  color: #000;
+  padding: 0 !important;
+  line-height: 1.5;
+}
+footer .contact-form .wpcf7-form p:nth-child(-n+4) {
+  width: 300px;
+  display: block;
+}
+footer .contact-form .wpcf7-form p:nth-child(-n+4) input {
+  width: 100%;
+}

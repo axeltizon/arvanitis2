@@ -17,8 +17,8 @@
 /* =========== CONNECTION SETTINGS =========== */
 $hostname = "localhost";
 $username = "root";
-$password = "root";
-$database = "redesign";
+$password = "";
+$database = "arvanitis2";
 
 /* =========== THE CULPRIT =========== */
 $old = "dev4.tbelle.com";

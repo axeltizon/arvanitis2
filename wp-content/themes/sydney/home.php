@@ -8,7 +8,7 @@
 get_header(); ?>
 
 
-	<div id="primary" class="content-area col-md-9 <?php echo sydney_blog_layout(); ?>">
+	<div id="primary" class="content-area col-md-12 <?php echo sydney_blog_layout(); ?>">
 		<main id="main" class="post-wrap" role="main">
 
 		<?php if ( have_posts() ) : ?>

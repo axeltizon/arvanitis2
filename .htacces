@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase /arvanitis2/ (arvanitis2 replaced with my domainname, bottom also) 
+RewriteRule ^index\.php$ - [L] 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . /arvanitis2/index.php [L] 
+</IfModule>
